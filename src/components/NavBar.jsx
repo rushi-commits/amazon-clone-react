@@ -58,7 +58,6 @@ const NavBar = () => {
         <div>Gift Cards</div>
         <div>Sell</div>
       </div>
-      <h1>main product</h1>
     </header>
   );
 };
