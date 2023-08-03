@@ -25,8 +25,8 @@ const ProductPage = () => {
 
   useEffect(() => {
     getProduct();
-  }, []);
-
+  });
+  //here need to add [] in above hook
   if (!product?.title) return <h1>Loading Product ...</h1>;
 
   return (
